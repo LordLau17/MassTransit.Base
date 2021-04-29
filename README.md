@@ -5,8 +5,7 @@ Out of the box set-up project for a MassTransit solution.
 - RabbitMQ is running on your localhost on port 5672.
 
 # How-to start
-- Set the start-up projects as:
-- 1) Publisher - 2) Listener
+- Set the start-up projects as: 1) Publisher - 2) Listener
 - Hit start!
 
 # Results
