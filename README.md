@@ -1,5 +1,6 @@
 # MassTransit.Base
 Out of the box set-up project for a MassTransit solution.
+Failed messages will be retried 5 times every 200 milliseconds.
 
 # Assumptions
 - RabbitMQ is running on your localhost on port 5672.
