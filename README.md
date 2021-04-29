@@ -7,6 +7,7 @@ Out of the box set-up project for a MassTransit solution.
 # How-to start
 - Set the start-up projects as: 1) Publisher - 2) Listener
 - Hit start!
+- Use swagger at https://localhost:5000/swagger/index.html to initiate publishing a message.
 
 # Results
 - Listener project command line output: ![MessageConsumer](https://user-images.githubusercontent.com/4559120/116606406-f9d5e100-a930-11eb-8b69-8361997226fc.PNG)
