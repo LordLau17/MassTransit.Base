@@ -1,5 +1,5 @@
 # MassTransit.Base
-Out of the box set-up project for a MassTransit solution.
+Out of the box set-up project for a MassTransit solution. This MassTransit solution uses RabbitMQ as message broker. The intended purpose is to provide you as a developer in seperation of code.
 - Failed messages will be retried 5 times every 200 milliseconds.
 
 # Assumptions
