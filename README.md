@@ -4,7 +4,7 @@ Out of the box set-up project for a MassTransit-RabbitMQ solution. This MassTran
 
 # Assumptions
 - RabbitMQ is running on your localhost on port 5672.
-- .NET 5 SDK is installed.
+- .NET 6 SDK is installed.
 
 # How-to start
 - Set the start-up projects as: 1) Publisher - 2) Listener
