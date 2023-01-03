@@ -1,10 +1,14 @@
 # MassTransit.Base
-Out of the box set-up project for a MassTransit-RabbitMQ solution. This MassTransit solution uses RabbitMQ as message broker. The intended purpose is to provide you as a developer in seperation of code.
+Out of the box set-up project for a MassTransit-RabbitMQ solution. 
+This MassTransit solution uses RabbitMQ as message broker. 
+The intended purpose is to provide you as a developer in seperation of code.
+
+# Meta
 - Failed messages will be retried 5 times every 200 milliseconds.
 
 # Assumptions
 - RabbitMQ is running on your localhost on port 5672.
-- .NET 6 SDK is installed.
+- .NET 7 SDK is installed.
 
 # How-to start
 - Set the start-up projects as: 1) Publisher - 2) Listener
