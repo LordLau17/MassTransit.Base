@@ -49,9 +49,4 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.MapGet("/", async context =>
-{
-    await context.Response.WriteAsync("Hello World!");
-});
-
 app.Run();
